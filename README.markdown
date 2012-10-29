@@ -1,7 +1,7 @@
 OnLoad JavaScript for Rails
 ===========================
 
-This Rails 3 add-on lets you easily run a JavaScript function based on what
+This Rails 3.1+ add-on lets you easily run a JavaScript function based on what
 controller and action is being loaded.
 
 Requirements
@@ -21,7 +21,7 @@ Use the *onload_tag* helper at the bottom of your body, below your *javascript_i
 
     <%= onload_tag %>
 
-In your application.js headers, add the onload js below jquery.
+In your application.js headers, add the onload js below jquery but above your custom javascript files.
 
     //= require onload
 
