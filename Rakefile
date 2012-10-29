@@ -31,5 +31,10 @@ end
 task :default do
   sh "/usr/local/bin/coffee -c -s < coffee/onload.js.coffee > app/assets/javascripts/onload.js"
   cd "pkg"
+  sh "rm *"
   sh "gem build ../onload_js-rails.gemspec"
+end
+
+task :push => :default do
+  sh "gem push *.gem"
 end
