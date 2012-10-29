@@ -7,7 +7,7 @@ rescue LoadError
 end
 
 require 'rake'
-require 'rake/rdoctask'
+require 'rdoc/task'
 
 require 'rake/testtask'
 
@@ -26,4 +26,10 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.options << '--line-numbers' << '--inline-source'
   rdoc.rdoc_files.include('README.rdoc')
   rdoc.rdoc_files.include('lib/**/*.rb')
+end
+
+task :default do
+  sh "/usr/local/bin/coffee -c -s < coffee/onload.js.coffee > app/assets/javascripts/onload.js"
+  cd "pkg"
+  sh "gem build ../onload_js-rails.gemspec"
 end
