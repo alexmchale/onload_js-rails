@@ -1,0 +1,371 @@
+
+
+Started GET "/assets/rails.png" for 192.168.1.72 at 2012-10-28 20:46:10 -0500
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:46:14 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Compiled users.css  (8ms)  (pid 71627)
+Compiled application.css  (14ms)  (pid 71627)
+Compiled jquery.js  (3ms)  (pid 71627)
+Compiled jquery_ujs.js  (0ms)  (pid 71627)
+Compiled users.js  (148ms)  (pid 71627)
+Compiled application.js  (194ms)  (pid 71627)
+Completed 200 OK in 291ms (Views: 290.3ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 20:46:15 -0500
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 20:46:16 -0500
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 20:46:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 20:46:16 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 20:46:16 -0500
+Served asset /application.js - 200 OK (5ms)
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 20:46:16 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:47:42 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Compiled users.js  (96ms)  (pid 71627)
+Compiled application.js  (2ms)  (pid 71627)
+Completed 200 OK in 118ms (Views: 118.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 20:47:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 20:47:42 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 20:47:42 -0500
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 20:47:42 -0500
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 20:47:42 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 20:47:42 -0500
+Served asset /users.js - 200 OK (1ms)
+Served asset /users.css - 304 Not Modified (1ms)
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:51:28 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 17.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 20:51:28 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 20:51:30 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 20:51:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 20:51:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 20:51:30 -0500
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 20:51:30 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:52:38 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 17.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 20:52:38 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 20:52:40 -0500
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 20:52:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 20:52:40 -0500
+Served asset /users.css - 304 Not Modified (2ms)
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 20:52:40 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 20:52:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:53:15 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (couldn't find file 'onload'
+  (in /Users/alexmchale/src/anticlever/onload_js/test_application/app/assets/javascripts/application.js:15)):
+    3: <head>
+    4:   <title>TestApplication</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___812998020105281609_70170013571220'
+
+
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:54:39 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (couldn't find file 'onload'
+  (in /Users/alexmchale/src/anticlever/onload_js/test_application/app/assets/javascripts/application.js:15)):
+    3: <head>
+    4:   <title>TestApplication</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___812998020105281609_70170013571220'
+
+
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:54:57 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Compiled onload.js  (105ms)  (pid 74016)
+Compiled application.js  (114ms)  (pid 74016)
+Completed 200 OK in 145ms (Views: 145.3ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 20:54:58 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 20:54:58 -0500
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/assets/onload.js?body=1" for 192.168.1.72 at 2012-10-28 20:55:00 -0500
+Served asset /onload.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 20:55:00 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 20:55:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 20:55:00 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 20:55:00 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:56:25 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 20:56:25 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 20:56:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 20:56:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 20:56:25 -0500
+
+
+Started GET "/assets/onload.js?body=1" for 192.168.1.72 at 2012-10-28 20:56:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 20:56:25 -0500
+Served asset /onload.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (1ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 20:57:13 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 20:57:13 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 20:57:14 -0500
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 20:57:14 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 20:57:14 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 20:57:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 20:57:14 -0500
+
+
+Started GET "/assets/onload.js?body=1" for 192.168.1.72 at 2012-10-28 20:57:14 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+Served asset /jquery.js - 304 Not Modified (1ms)
+Served asset /onload.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 20:57:17 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 21:00:48 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Compiled onload.js  (104ms)  (pid 75638)
+Compiled application.js  (3ms)  (pid 75638)
+Completed 200 OK in 137ms (Views: 137.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 21:00:48 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 21:00:48 -0500
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 21:00:50 -0500
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/onload.js?body=1" for 192.168.1.72 at 2012-10-28 21:00:50 -0500
+Served asset /onload.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 21:00:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 21:00:50 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 21:00:50 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 21:06:25 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `onload_tag' for #<#<Class:0x007f874ccd90d0>:0x007f874ce42a70>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= onload_tag %>
+    13: 
+    14: </body>
+    15: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3036469021132897255_70109543659940'
+
+
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/alexmchale/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 192.168.1.72 at 2012-10-28 21:06:35 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 19.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.72 at 2012-10-28 21:06:35 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.72 at 2012-10-28 21:06:35 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/onload.js?body=1" for 192.168.1.72 at 2012-10-28 21:06:37 -0500
+Served asset /onload.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.72 at 2012-10-28 21:06:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.72 at 2012-10-28 21:06:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.72 at 2012-10-28 21:06:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+Served asset /users.js - 304 Not Modified (1ms)
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.72 at 2012-10-28 21:06:37 -0500
+Served asset /users.css - 304 Not Modified (1ms)
