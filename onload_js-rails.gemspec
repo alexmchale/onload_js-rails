@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.email                     = [ "alex@anticlever.com" ]
   s.homepage                  = "http://github.com/alexmchale/onload_js-rails"
   s.description               = "Lets you easily run JavaScript based on the current controller#action."
+  s.summary                   = "Lets you easily run JavaScript based on the current controller#action."
 
   s.rubyforge_project         = "onload_js-rails"
   s.required_rubygems_version = "> 1.3.6"
