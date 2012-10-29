@@ -61,8 +61,8 @@ On either the Users or UserSessions controllers, on the new or edit actions.
       ...
     });
 
-Maintainers
------------
+Maintainer
+----------
 
 * [Alex McHale](http://github.com/alexmchale)
 
