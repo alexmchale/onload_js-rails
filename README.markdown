@@ -17,7 +17,7 @@ Add the following to your Gemfile and run *bundle*.
 
     gem 'onload_js-rails'
 
-Use the *onload_tag* helper at the bottom of your body, below your *javascript_include_tag*s.
+Use the *onload_tag* helper at the bottom of your body, below your *javascript_include_tag*.
 
     <%= onload_tag %>
 
