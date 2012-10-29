@@ -10,6 +10,23 @@ Requirements
 * Rails 3 Project
 * jQuery 1.8+
 
+Installation
+------------
+
+Add the following to your Gemfile and run *bundle*.
+
+    gem 'onload_js-rails'
+
+Use the *onload_tag* helper at the bottom of your body, below your *javascript_include_tag*s.
+
+    <%= onload_tag %>
+
+In your application.js headers, add the onload js below jquery.
+
+    //= require onload
+
+Finally, use the *runOnLoad* method in your JavaScript or Coffee-Script as described below.
+
 Examples
 --------
 
