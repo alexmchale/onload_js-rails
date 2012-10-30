@@ -1,6 +1,5 @@
 (function() {
-  var callAction, callController, makeOnLoadArray, onloadCallbacks, root;
-  root = typeof exports !== "undefined" && exports !== null ? exports : this;
+  var callAction, callController, makeOnLoadArray, onloadCallbacks;
   onloadCallbacks = {};
   makeOnLoadArray = function(items) {
     if (jQuery.isArray(items)) {
@@ -32,10 +31,7 @@
     callAction(controllerName, "*");
     return callAction("*", "*");
   };
-  root.railsLoaded = function(controllerName, actionName) {
-    return callController(controllerName, actionName);
-  };
-  root.runOnLoad = function(controllers, actions, fn) {
+  window.runOnLoad = function(controllers, actions, fn) {
     var a, c, _i, _len, _results;
     if (jQuery.isFunction(actions) && !jQuery.isFunction(fn)) {
       fn = actions;
@@ -64,4 +60,13 @@
     }
     return _results;
   };
+  jQuery(function() {
+    var action, controller, dataElement, _ref, _ref2;
+    dataElement = $("#onload-js-data");
+    controller = (_ref = dataElement.data("controller")) != null ? _ref : "";
+    action = (_ref2 = dataElement.data("action")) != null ? _ref2 : "";
+    if (controller !== "" && action !== "") {
+      return callController(controller, action);
+    }
+  });
 }).call(this);

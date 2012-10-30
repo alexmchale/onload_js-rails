@@ -1,5 +1,3 @@
-root = exports ? this
-
 onloadCallbacks = {}
 
 makeOnLoadArray = (items) ->
@@ -18,10 +16,7 @@ callController = (controllerName, actionName) ->
   callAction controllerName, "*"
   callAction "*", "*"
 
-root.railsLoaded = (controllerName, actionName) ->
-  callController controllerName, actionName
-
-root.runOnLoad = (controllers, actions, fn) ->
+window.runOnLoad = (controllers, actions, fn) ->
   if jQuery.isFunction(actions) && !jQuery.isFunction(fn)
     fn = actions
     actions = null
@@ -32,3 +27,9 @@ root.runOnLoad = (controllers, actions, fn) ->
       onloadCallbacks[c] ?= {}
       onloadCallbacks[c][a] ?= []
       onloadCallbacks[c][a].push fn
+
+jQuery ->
+  dataElement = $("#onload-js-data")
+  controller = dataElement.data("controller") ? ""
+  action = dataElement.data("action") ? ""
+  callController(controller, action) if controller != "" && action != ""

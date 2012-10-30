@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    onload_js-rails (1.0.0)
+    onload_js-rails (1.1.0)
 
 GEM
   remote: http://rubygems.org/
