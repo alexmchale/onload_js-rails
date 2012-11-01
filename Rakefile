@@ -30,9 +30,11 @@ end
 
 task :default do
   sh "/usr/local/bin/coffee -c -s < coffee/onload.js.coffee > app/assets/javascripts/onload.js"
+  sh "gem build onload_js-rails.gemspec"
+  sh "mkdir -p pkg"
   cd "pkg"
-  sh "rm *"
-  sh "gem build ../onload_js-rails.gemspec"
+  sh "rm -f *"
+  sh "mv ../*.gem ."
 end
 
 task :push => :default do
